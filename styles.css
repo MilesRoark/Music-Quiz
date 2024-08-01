@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Tapestry&display=swap");
+
+body {
+  font-family: "Tapestry", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  gap: 300px;
+  background-color: bisque;
+  z-index: 2;
+  top: 0;
+}
+
+img {
+  height: 6em;
+  width: 300px;
+  margin-left: -3px;
+  object-fit: cover;
+}
+
+.bar {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 25px;
+  margin-right: 30px;
+  list-style: none;
+}
+
+.bar__sections {
+  font-size: 20px;
+}
+
+h2 {
+  color: green;
+  font-size: 25px;
+}
+
+footer {
+  width: 100vw;
+  height: 80px;
+  background-color: bisque;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin-top: 110px;
+  width: 60vw;
+  margin-left: 300px;
+  padding: 0 30px 40px 30px;
+}
+
+.user__info {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 19px;
+}
+
+.underline {
+  height: 6px;
+  background-color: blanchedalmond;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  box-shadow: 12px 8px 13px;
+}
+
+.quest {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 15px;
+}
+
+.quest span {
+  width: 45px;
+  height: 1px;
+  background-color: black;
+  margin-top: 15px;
+}
+
+ul {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+ol {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+button {
+  width: 500px;
+  height: 40px;
+  margin-left: 150px;
+  background-color: goldenrod;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 10px 12px 13px;
+  font-size: 2em;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" />
+    <title>Music Quiz</title>
+  </head>
+  <body>
+    <nav>
+      <img src="Assets/ImmigrantSoul.png" alt="Logo" />
+      <h2>Music Quiz</h2>
+      <ul class="bar">
+        <li class="bar__sections"><a href="#info">Info</a></li>
+        <li class="bar__sections"><a href="#theory">Theory</a></li>
+        <li class="bar__sections">
+          <a href="#Production">Production</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="content">
+      <form action="https://formspree.io/f/mldrbjbn" method="POST">
+        <h1 class="user" id="info">Info</h1>
+        <hr class="underline" />
+        <div class="user__info" id="user__info">
+          <label for="name">
+            What's your name?:
+            <input type="text" id="name" placeholder="Johny Musician" />
+          </label>
+          <label for="age">
+            How old are you?:
+            <input type="text" id="age" min="13" max="130" required />
+          </label>
+          <label for="email"
+            >What's your Email addy?:
+            <input type="emal" id="email" required />
+          </label>
+          <label for="instrument"
+            >How do you make music?:
+            <input type="text" id="instrument" />
+          </label>
+        </div>
+        <div class="questions__theory">
+          <h1 class="user" id="theory">Theory</h1>
+          <hr class="underline" />
+          <ol>
+            <p class="quest">
+              1.A<span class="qline"></span> is drawn as an open oval
+            </p>
+            <ul>
+              <label for="answera">
+                <input type="radio" id="answera" name="answer" />a.Whole Note
+              </label>
+              <label for="answerb">
+                <input type="radio" id="answerb" name="answer" />b.Quater Note
+              </label>
+              <label for="answerc">
+                <input type="radio" id="answerc" name="answer" />c.Sixteenth
+                Note
+              </label>
+              <label for="answerd">
+                <input type="radio" id="answerd" name="answer" />d.Half Note
+              </label>
+            </ul>
+            <p class="quest">
+              2.The position of a single sound within the complete range of
+              sound is known as<span class="qline"></span>
+            </p>
+            <ul>
+              <label for="answer1">
+                <input type="radio" id="answer1" name="q2" /> a.Timbre
+              </label>
+              <label for="answer2">
+                <input type="radio" id="answer2" name="q2" />b.Pitch
+              </label>
+              <label for="answer3">
+                <input type="radio" id="answer3" name="q2" />c.Resonance
+              </label>
+              <label for="answer4">
+                <input type="radio" id="answer4" name="q2" />d.tone
+              </label>
+            </ul>
+          </ol>
+        </div>
+        <div class="questions__Production" id="Production">
+          <h1 class="user">Production</h1>
+          <hr class="underline" />
+          <ol>
+            <p class="quest">
+              1.<span class="qline"></span> is the process of balancing and
+              blending tracks.
+            </p>
+            <ul>
+              <label for="panswera">
+                <input type="radio" id="panswera" name="answerp" />a.Mixing
+              </label>
+              <label for="panswerb">
+                <input type="radio" id="panswerb" name="answerp" />b.Arranging
+              </label>
+              <label for="panswerc">
+                <input type="radio" id="panswerc" name="answerp" />c.Mixing Note
+              </label>
+              <label for="panswerd">
+                <input type="radio" id="panswerd" name="answerp" />d.Blending
+              </label>
+            </ul>
+            <p class="quest">2.MIDI stands for<span class="qline"></span></p>
+            <ul>
+              <label for="answer1">
+                <input type="radio" id="answer1" name="q2" /> a.Music Interface
+                for Digital instruments
+              </label>
+              <label for="answer2">
+                <input type="radio" id="answer2" name="q2" />b.Musical
+                Instrument Data Interface
+              </label>
+              <label for="answer3">
+                <input type="radio" id="answer3" name="q2" />c.Musical
+                Instrument Digital Integration
+              </label>
+              <label for="answer4">
+                <input type="radio" id="answer4" name="q2" />d.Mucic Instrument
+                Digital Interface
+              </label>
+            </ul>
+          </ol>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+    <footer><p>Immigrant Soul, Bronx, New York. 2024</p></footer>
+  </body>
+</html>
